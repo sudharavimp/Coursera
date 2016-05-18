@@ -25,12 +25,26 @@ divstyle {
   color: black;
 }
 
-.spanclass
+.spanclass1
 {
 border: 1px solid black;
 vertical-align: right;
+background-color:#FFC0CB;
 }
 
+.spanclass2
+{
+border: 1px solid black;
+vertical-align: right;
+background-color:maroon;
+}
+
+.spanclass1
+{
+border: 1px solid black;
+vertical-align: right;
+background-color:yellow;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
