@@ -28,7 +28,9 @@ p {
 
 {
 	background-color: blue;
-	text-align: left
+	text-align: left;
+	height: auto;
+	width:auto;
 
 }
 /********** Large devices only **********/
