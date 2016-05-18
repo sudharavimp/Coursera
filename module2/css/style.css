@@ -25,6 +25,11 @@ divstyle {
   color: black;
 }
 
+.spanclass
+{
+border: 1px solid black;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
