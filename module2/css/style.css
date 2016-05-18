@@ -29,7 +29,7 @@ divstyle {
 {
 border: 1px solid black;
 float: right;
-width: 30px;
+width: 100px;
 background-color:pink;
 }
 
@@ -37,7 +37,7 @@ background-color:pink;
 {
 border: 1px solid black;
 float: right;
-width:30px;
+width:100px;
 background-color:maroon;
 }
 
@@ -45,7 +45,7 @@ background-color:maroon;
 {
 border: 1px solid black;
 float: right;
-width:30px;
+width:100px;
 background-color:yellow;
 }
 
