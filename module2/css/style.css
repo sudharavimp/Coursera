@@ -29,7 +29,7 @@ divstyle {
 {
 border: 1px solid black;
 vertical-align: right;
-background-color:#FFC0CB;
+background-color:pink;
 }
 
 .spanclass2
@@ -39,7 +39,7 @@ vertical-align: right;
 background-color:maroon;
 }
 
-.spanclass1
+.spanclass3
 {
 border: 1px solid black;
 vertical-align: right;
