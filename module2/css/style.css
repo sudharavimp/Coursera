@@ -5,6 +5,7 @@
 
 .header {
 
+ margin-bottom: 15px;
 	text-align: center;
 }
 .row {
@@ -31,7 +32,8 @@ border: 1px solid black;
 float: right;
 text-align: center;
 font-color:black;
-width: 100px;
+width: 30%;
+position: relative;
 background-color:pink;
 }
 
@@ -41,8 +43,9 @@ border: 1px solid black;
 float: right;
 text-align: center;
 font-color:white;
-width:100px;
-background-color:maroon;
+width:30%;
+position: relative;
+background-color:#A52A2A;
 }
 
 .spanclass3
@@ -51,8 +54,9 @@ border: 1px solid black;
 float: right;
 text-align: center;
 font-color:black;
-width:100px;
-background-color:yellow;
+width:30%;
+position: relative;
+background-color:#DEB887;
 }
 
 /********** Large devices only **********/
@@ -103,10 +107,61 @@ background-color:yellow;
   }
 }
 /********** Medium devices only **********/
-@media (min-width: 950px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
+    background-color: gray;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+   background-color: gray;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
   }
   .col-md-1 {
     width: 8.33%;
